@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <nav class="navbar">
+        <div class="logo">MY PORTFOLIO</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#featured">Work</a></li>
+            <li><a href="#skills">Services</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="profile-container">
+            <div class="liquid-frame"></div>
+            <img src="professional.png" alt="Elizabeth Arbie Morales" class="profile-img"> 
+        </div>
+        <div class="hero-text">
+            <h1>Hi! I'm Elizabeth Arbie Morales</h1> 
+            <p>Bachelor of Science in Computer Science student from Western Mindanao State University</p> 
+            <a href="#featured" class="btn">Explore My Work</a>
+        </div>
+    </section>
+
+    <section id="featured" class="featured-section">
+        <h2 class="section-title">Featured Work</h2>
+        <div class="featured-container">
+            
+            <div class="featured-item landscape">
+                <div class="video-frame">
+                    <video autoplay muted loop playsinline class="project-video">
+                        <source src="pokedex.mp4" type="video/mp4"> 
+                    </video>
+                </div>
+                <div class="featured-text">
+                    <h3>Interactive Pokédex</h3>
+                    <p>A dynamic web application that retrieves real-time data from the PokeAPI. It features a custom-designed interface with smooth transitions for viewing detailed Pokémon statistics.</p>
+                    <div class="tech-stack">
+                        <span>JavaScript</span><span>PokeAPI</span><span>HTML</span><span>CSS</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="featured-item landscape">
+                <div class="video-frame">
+                    <video autoplay muted loop playsinline class="project-video">
+                        <source src="laundryShopOrd.mp4" type="video/mp4"> 
+                    </video>
+                </div>
+                <div class="featured-text">
+                    <h3>Laundry Shop Order System</h3>
+                    <p>A full-stack management solution designed to streamline order tracking and customer data, featuring a robust database backend for managing transactions.</p>
+                    <div class="tech-stack">
+                        <span>JavaScript</span><span>Php</span><span>MySql</span><span>CSS</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="featured-item portrait">
+                <div class="video-frame">
+                    <video autoplay muted loop playsinline class="project-video">
+                        <source src="MobileDev.mp4" type="video/mp4"> 
+                    </video>
+                </div>
+                <div class="featured-text">
+                    <h3>PlanPal: Document Manager</h3>
+                    <p>A mobile productivity suite built for efficient document organization and scheduling, emphasizing high-performance mobile UI and intuitive user workflows.</p>
+                    <div class="tech-stack">
+                        <span>Mobile Development</span><span>Kotlin</span><span>Group Project</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="skills" class="projects-section">
+        <h2 class="section-title">My Services</h2>
+        <div class="project-grid">
+            <div class="card">
+                <h3>Web App Design</h3>
+                <p>Modern dashboard with data visualization.</p> 
+            </div>
+            <div class="card">
+                <h3>Mobile UI</h3>
+                <p>Liquid animations for app concepts.</p> 
+            </div>
+            <div class="card">
+                <h3>Visit</h3>
+                <p>GitHub Profile:</p>
+                <a href="https://github.com/Arbie-the-II">https://github.com/Arbie-the-II</a>
+                <p>LinkedIn Profile: <a href="https://www.linkedin.com/in/elizabeth-arbie-morales-9a2417321/">https://www.linkedin.com/in/elizabeth-arbie-morales-9a2417321/</a></p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
